@@ -531,3 +531,51 @@ hr {
         height: 20px;
     }
 }
+
+
+/* ===== M3D Hero Layout ===== */
+
+.hero-split {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.hero-left {
+    flex: 1 1 0;
+    min-width: 0;
+}
+
+.hero-logo {
+    flex: 0 0 90px;
+    width: 90px;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.hero-logo img {
+    width: 90px;
+    height: auto;
+    max-height: 220px;
+    object-fit: contain;
+    display: block;
+}
+
+.hero-right {
+    flex: 1 1 0;
+    min-width: 0;
+}
+
+.hero-video-wrap {
+    width: 100%;
+}
+
+.hero-video-wrap video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
