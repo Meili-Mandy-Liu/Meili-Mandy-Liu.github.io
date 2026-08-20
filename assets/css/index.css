@@ -532,50 +532,97 @@ hr {
     }
 }
 
-
-/* ===== M3D Hero Layout ===== */
+/* ===== M3D HERO THREE-COLUMN LAYOUT ===== */
 
 .hero-split {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
-    gap: 25px;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    gap: 40px;
 }
 
 .hero-left {
-    flex: 1 1 0;
+    flex: 1;
     min-width: 0;
 }
 
 .hero-logo {
-    flex: 0 0 90px;
-    width: 90px;
-    height: 220px;
+    flex: 0 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
 }
 
 .hero-logo img {
     width: 90px;
     height: auto;
-    max-height: 220px;
-    object-fit: contain;
     display: block;
 }
 
 .hero-right {
-    flex: 1 1 0;
+    flex: 1;
     min-width: 0;
 }
 
 .hero-video-wrap {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-video-wrap video {
     width: 100%;
+    max-width: 520px;
     height: auto;
     display: block;
+}
+
+/* Keep the text and video vertically aligned */
+.hero-left,
+.hero-logo,
+.hero-right {
+    align-self: center;
+}
+
+
+/* ===== MOBILE ===== */
+
+@media (max-width: 900px) {
+
+    .hero-split {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .hero-left,
+    .hero-logo,
+    .hero-right {
+        width: 100%;
+        flex: none;
+    }
+
+    .hero-logo {
+        order: 2;
+    }
+
+    .hero-left {
+        order: 1;
+    }
+
+    .hero-right {
+        order: 3;
+    }
+
+    .hero-logo img {
+        width: 80px;
+    }
+
+    .hero-video-wrap video {
+        max-width: 500px;
+    }
 }
