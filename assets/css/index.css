@@ -531,3 +531,12 @@ hr {
         height: 20px;
     }
 }
+
+/* ===== M3D logo on homepage ===== */
+.homenav img {
+    width: 180px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+    object-fit: contain;
+}
