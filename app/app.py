@@ -19,7 +19,7 @@ with open('index.html', 'w') as f:
 template = env.get_template('publications.html')
 publication_infos = get_publication_infos()
 with open('publications.html', 'wb') as f:
-    f.write(template.render(headerimg='/assets/img/covers/maincover.jpg',
+    f.write(template.render(headerimg='/assets/img/cover/maincover.jpg',
                             sections=publication_infos).encode('utf-8'))
 
 # render research.html with layout research.html
