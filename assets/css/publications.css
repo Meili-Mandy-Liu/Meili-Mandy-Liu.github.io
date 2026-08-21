@@ -152,7 +152,7 @@ div.row-seg {
 
 h1.publication-title {
     color: var(--mainfontcolor);
-    margin-left: 1.5rem;
+    margin-left: 0.9rem;
     margin-top: 2rem;
     margin-bottom: 0.8rem;
     font-size: 2rem;
@@ -160,7 +160,7 @@ h1.publication-title {
 }
 
 div.scholar-link {
-    margin-left: 1.5rem;
+    margin-left: 0.9rem;
     margin-bottom: 2.5rem;
 }
 
