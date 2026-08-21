@@ -134,3 +134,65 @@ div.article a.readmore:hover {
 div.row-seg {
     padding: 10px;
 }
+
+/* ================================
+   Publications page refinement
+   ================================ */
+
+h1.publication-title {
+    color: var(--mainfontcolor);
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 0.8rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+div.scholar-link {
+    margin-left: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+div.scholar-link a {
+    color: #1a73e8;
+    font-size: 0.95rem;
+    text-decoration: none;
+}
+
+div.scholar-link a:hover {
+    color: #1558b0;
+    text-decoration: underline;
+}
+
+h1.sectiontitle {
+    display: block;
+    color: var(--mainhighlight);
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+div.article h1 a {
+    color: #1a73e8;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+}
+
+div.article h1 a:hover {
+    color: #1558b0;
+}
+
+div.article h2 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #888888;
+}
+
+div.article p {
+    margin-top: 0;
+    font-size: 1rem;
+    font-weight: 400;
+}
