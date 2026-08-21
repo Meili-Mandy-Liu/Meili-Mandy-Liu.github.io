@@ -211,10 +211,12 @@ div.article p {
 }
 
 /* Make publication titles use the full available width */
+
 div.article {
-    width: 100%;
+    width: calc(100% - 1.5rem);
     max-width: none;
-    margin: 0;
+    margin-left: 1.8rem;
+    margin-right: 0;
     padding: 0;
 }
 
