@@ -29,7 +29,7 @@ body, html {
     min-height: calc(100vh - 300px);
     height: auto;
     margin: 0;
-    padding: 110px 40px 60px 60px;
+    padding: 110px 40px 60px 100px;
     box-sizing: border-box;
 }
 
