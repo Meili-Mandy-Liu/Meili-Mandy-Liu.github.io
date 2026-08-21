@@ -42,13 +42,11 @@ h1.sectiontitle {
 }
 
 div.article {
-    width: 100%;
-    margin: auto;
-    padding: .2rem .8rem;
-    /* background-color: #ffffff; */
-    color: var(--mainfontcolor);
-    overflow: visible;
-    box-sizing: border-box;
+    width: calc(100% - 1.5rem);
+    margin-left: 1.5rem;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 div.article a {
