@@ -105,10 +105,14 @@ div.article a.readmore {
     text-decoration: none;
 }
 
+div.article a.titlehref {
+    color: var(--mainfontcolor);
+    text-decoration: underline;
+}
+
 div.article a.titlehref:hover {
-    background-color: var(--mainselection);
-    color: var(--mainbg);
-    text-decoration: underline overline;
+    color: var(--mainhighlight);
+    text-decoration: underline;
     transition: .3s;
 }
 
