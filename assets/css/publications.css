@@ -55,6 +55,20 @@ div.article {
     box-sizing: border-box;
 }
 
+div.article a {
+    color: var(--mainfontcolor);
+}
+
+div.article h1 a.titlehref {
+    color: #0066cc;
+    text-decoration: underline;
+}
+
+div.article h1 a.titlehref:hover {
+    color: var(--mainselection);
+}
+
+
 div.article h1 {
     font-size: 1.2rem;
     font-weight: 600;
