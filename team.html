@@ -4,11 +4,11 @@
 <head>
     <link rel="stylesheet" type="text/css" href="/assets/css/team.css" />
 
-    <title>M3D RESEARCH</title>
+    <title>M³D RESEARCH | People</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <meta name="description" content="M3D RESEARCH.">
+    <meta name="description" content="People involved in M³D Research.">
     <meta name="author" content="Meili Liu">
 
     <!-- fonts -->
@@ -51,22 +51,28 @@
 
 <body>
 
+    <!-- Navigation -->
     <div class="topnav navori" id="navbar">
+
         <a class="homenav" href="/index.html" onclick="closenav()">
-            <img src="/assets/img/M3Dlogo4.png" />
+            <img src="/assets/img/M3Dlogo4.png" alt="M³D Research">
         </a>
+
         <div class="othernav">
             <a class="resdown" id="indexnav" href="/index.html" onclick="closenav()">Home</a>
-            <a class="resdown" id="teamnav" href="/team.html" onclick="closenav()">Team</a>
+            <a class="resdown" id="teamnav" href="/team.html" onclick="closenav()">People</a>
             <a class="resdown" id="researchnav" href="/research.html" onclick="closenav()">Research</a>
             <a class="resdown" id="publicationsnav" href="/publications.html" onclick="closenav()">Publications</a>
-            <!-- <a class="resdown" id="literaturenav" href="/about.html" onclick="closenav()">About</a> -->
         </div>
+
         <a class="dropicon" onclick="narrownav()">
             <i class="fa fa-bars"></i>
         </a>
+
     </div>
 
+
+    <!-- Back to top -->
     <a id="backtotop" onclick="driveTo(0)">
         <svg id="layer2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.85 35.95">
             <defs>
@@ -77,270 +83,347 @@
                     }
                 </style>
             </defs>
+
             <title>backtotop</title>
+
             <polyline class="cls-1" points="0.43 13.95 8.43 0.95 16.43 13.95" />
             <line class="cls-1" x1="8.43" y1="25.95" x2="8.43" y2="0.95" />
             <line class="cls-1" x1="0.43" y1="0.95" x2="16.43" y2="0.95" />
+
         </svg>
     </a>
 
+
     <script class="backtotop">
+
         var btn = $('#backtotop');
 
         $(window).scroll(function () {
+
             if ($(window).scrollTop() > 300) {
                 btn.addClass('show');
             } else {
                 btn.removeClass('show');
             }
+
         });
 
         btn.on('click', function (e) {
+
             e.preventDefault();
-            $('html, body').animate({ scrollTop: 0 }, '300');
+
+            $('html, body').animate({
+                scrollTop: 0
+            }, '300');
+
         });
+
     </script>
 
-    <div id="offsetheader" style="background-image: url(/assets/img/covers/maincover.jpg);"></div>
 
+    <!-- Main Content -->
     <div id="content">
-        <h1 class="sectionhead">Our Team</h1>
 
-<div class="team-section">
-    <h2 class="team-group-title">Principal Investigator</h2>
+        <h1 class="sectionhead">People</h1>
 
-    <div class="pi-card">
-        <div class="pi-left">
-            <div class="pi-photo-wrap">
-                <img class="pi-photo" src="/assets/img/team/Kunyu.jpg" alt="Kunyu Wang">
-            </div>
 
-            <h3 class="pi-name">Kunyu Wang</h3>
+        <!-- ========================= -->
+        <!-- About Me -->
+        <!-- ========================= -->
 
-            <div class="pi-education">
-                <p><strong>Incoming Assistant Professor</strong>, University of Miami, starting January 2027</p>
-                <p><strong>Vagelos Institute Postdoctoral Fellow</strong>, University of Pennsylvania, 2023–2026</p>
-                <p><strong>Ph.D. in Chemistry</strong>, Texas A&amp;M University, 2023</p>
-                <p><strong>B.S. in Chemistry (Poling Class)</strong>, Nankai University, 2018</p>
-            </div>
+        <div class="team-section">
 
-            <div class="member-links">
-                <a href="mailto:kunyuwang95@gmail.com">Email</a>
-                <a href="https://scholar.google.com/citations?user=5G-f684AAAAJ&hl=en" target="_blank">Google Scholar</a>
-            </div>
-        </div>
+            <h2 class="team-group-title">About Me</h2>
 
-        <div class="pi-right">
-            <h3 class="pi-about-title">About Kunyu</h3>
-            <p class="pi-about-text">
-                Dr. Kunyu Wang will join the University of Miami in January 2027. His research group will leverage chemical synthesis
-                to construct nanosized pores to address grand challenges in <strong>polyfluoroalkyl substance (PFAS) removal, critical mineral 
-                harvesting, and polymer upcycling.</strong> He has published <strong>80 peer-reviewed articles</strong> with <strong>24 first- or corresponding-author
-                papers</strong>, including 1 Nat. Protoc., 6 J. Am. Chem. Soc, 2 Angew. Chem., 2 Adv. Mater., 2 ACS Cent. Sci., 1 JACS Au, 
-                1 Matter, 1 Chem. Rev., and 2 Chem. Soc. Rev. (<strong>Total citations >6400 times</strong>) He has given 33 public presentations, including 6 invited talks.
-                He also serves as the Chair of the Younger Chemists Committee (YCC) of ACS Philadelphia Section and the Early Career Network Representative
-                of DOE-BES. He was invited as an independent reviewer for J. Am. Chem. Soc., Adv. Mater., Inorg. Chem., Coord. Chem. Rev., Small, 
-                Environ. Sci. Ecotechnology, Nano Lett., Catal. Today, Commun. Chem., and ACS Appl. Mater. Interfaces.
-            </p>
+            <div class="pi-card">
 
-            <h4 class="pi-awards-title">Selected Awards</h4>
-            <ul class="pi-awards-list">
-                <li><strong>Forbes 30 Under 30 Asia</strong>, Forbes, 2025</li>
-                <li><strong>RCSA Fellow</strong>, Research Corporation for Science Advancement, 2025</li>
-                <li><strong>CAS Future Leader</strong>, ACS Chemical Abstracts Service, 2024</li>
-                <li><strong>ACS Recognition of Excellence for Leadership in Mentoring</strong>, American Chemical Society, 2024</li>
-                <li><strong>Distinguished Graduate Student Award</strong>, Texas A&amp;M University Association of Former Students, 2023</li>
-                <li><strong>Foresight Fellowship in Molecular Machines</strong>, Foresignt Institute, 2022</li>
-                <li><strong>Manuel P. Soriaga Graduate Fellowship</strong>, Texas A&amp;M University, 2022</li>
-                <li><strong>Dow Chemical Company Charlene Black Miller '79 Endowed Memorial Fellowship in Chemistry</strong>, 2021</li>
-                <li><strong>1st Prize of Student Presentation Award Competition</strong>, ACS Division of Energy and Fuels, 2021</li>
-                <li><strong>Best Poster Prize of Faraday Discussion</strong>, Royal Society of Chemistry, 2020</li>
-                <li><strong>National Scholarship</strong>, Nankai University, 2015&amp;2016</li>
-            </ul>
-        </div>
-    </div>
-</div>
-    <div class="team-section">
-        <h2 class="team-group-title">Postdoctoral Scholar</h2>
-        <div class="team-grid">
-            <div class="member-card">
-                <div class="member-photo-wrap">
-                    <img class="member-photo" src="/assets/img/team/Recruiting.png" alt="We are hiring!">
-                </div>
-                <div class="member-info">
-                    <h3 class="member-name">We are hiring</h3>
-                    <p class="member-role">Postdoctoral Scholar</p>
-                    <p class="member-bio">
-                         
-                    </p>
+                <div class="pi-left">
+
+                    <div class="pi-photo-wrap">
+                        <img
+                            class="pi-photo"
+                            src="/assets/img/team/MeiliPhoto.png"
+                            alt="Meili Liu">
+                    </div>
+
+                    <h3 class="pi-name">Meili Liu, Ph.D.</h3>
+
+                    <div class="pi-education">
+
+                        <p>
+                            <strong>Postdoctoral Researcher</strong>,
+                            University of Miami
+                        </p>
+
+                        <p>
+                            <strong>Ph.D. in Chemistry</strong>,
+                            University of California, Berkeley
+                        </p>
+
+                    </div>
+
                     <div class="member-links">
-                        <a href="mailto:postdoc@miami.edu">Email</a>
+
+                        <a href="mailto:YOUR_EMAIL@miami.edu">
+                            Email
+                        </a>
+
+                        <a
+                            href="YOUR_GOOGLE_SCHOLAR_URL"
+                            target="_blank">
+                            Google Scholar
+                        </a>
+
+                        <a
+                            href="YOUR_LINKEDIN_URL"
+                            target="_blank">
+                            LinkedIn
+                        </a>
+
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-        <div class="team-section">
-            <h2 class="team-group-title">Graduate Students</h2>
-            <div class="team-grid">
-                <div class="member-card">
-                    <div class="member-photo-wrap">
-                        <img class="member-photo" src="/assets/img/team/Recruiting.png" alt="We are hiring!">
-                    </div>
-                    <div class="member-info">
-                        <h3 class="member-name">We are hiring</h3>
-                        <p class="member-role">Ph.D. Student</p>
-                        <p class="member-bio">
-                             
-                        </p>
-                        <div class="member-links">
-                            <a href="mailto:student@miami.edu">Email</a>
-                        </div>
-                    </div>
+
                 </div>
 
-                <div class="member-card">
-                    <div class="member-photo-wrap">
-                        <img class="member-photo" src="/assets/img/team/Recruiting.png" alt="We are hiring!">
-                    </div>
-                    <div class="member-info">
-                        <h3 class="member-name">We are hiring</h3>
-                        <p class="member-role">Ph.D. Student</p>
-                        <p class="member-bio">
-                            
-                        </p>
-                        <div class="member-links">
-                            <a href="mailto:student2@miami.edu">Email</a>
-                        </div>
-                    </div>
+
+                <div class="pi-right">
+
+                    <h3 class="pi-about-title">
+                        About Meili
+                    </h3>
+
+                    <p class="pi-about-text">
+
+                        I am a postdoctoral researcher at the University of Miami
+                        working at the intersection of molecular modeling,
+                        materials science, and data-driven discovery.
+
+                    </p>
+
+                    <p class="pi-about-text">
+
+                        My research integrates molecular dynamics,
+                        density functional theory, machine learning,
+                        and multiscale computational approaches to understand
+                        molecular-scale mechanisms and guide the design of
+                        sustainable and functional materials.
+
+                    </p>
+
+                    <p class="pi-about-text">
+
+                        My current research interests include
+                        computational materials science,
+                        molecular simulation,
+                        sustainable materials,
+                        interfacial chemistry,
+                        and AI/ML-assisted materials discovery.
+
+                    </p>
+
+
+                    <h4 class="pi-awards-title">
+                        Research Interests
+                    </h4>
+
+                    <ul class="pi-awards-list">
+
+                        <li>
+                            Molecular Modeling &amp; Simulation
+                        </li>
+
+                        <li>
+                            Sustainable &amp; Functional Materials
+                        </li>
+
+                        <li>
+                            Interfacial Chemistry
+                        </li>
+
+                        <li>
+                            AI/ML for Materials Discovery
+                        </li>
+
+                        <li>
+                            Multiscale Materials Science
+                        </li>
+
+                    </ul>
+
                 </div>
+
             </div>
+
         </div>
 
+
+        <!-- ========================= -->
+        <!-- Research Collaborators -->
+        <!-- ========================= -->
+
         <div class="team-section">
-            <h2 class="team-group-title">Undergraduate Students</h2>
+
+            <h2 class="team-group-title">
+                Research Collaborators
+            </h2>
+
             <div class="team-grid">
+
                 <div class="member-card">
+
                     <div class="member-photo-wrap">
-                        <img class="member-photo" src="/assets/img/team/Recruiting.png" alt="We are hiring!">
+
+                        <img
+                            class="member-photo"
+                            src="/assets/img/team/Collaborator.png"
+                            alt="Research Collaborator">
+
                     </div>
+
                     <div class="member-info">
-                        <h3 class="member-name">We are hiring</h3>
-                        <p class="member-role">Undergraduate Researcher</p>
-                        <p class="member-bio">
-                             
+
+                        <h3 class="member-name">
+                            Collaborators
+                        </h3>
+
+                        <p class="member-role">
+                            Academic &amp; Research Collaborations
                         </p>
+
+                        <p class="member-bio">
+
+                            M³D Research works with researchers across
+                            chemistry, materials science, engineering,
+                            computational science, and related disciplines.
+
+                        </p>
+
                     </div>
+
                 </div>
+
             </div>
+
         </div>
+
+
+        <!-- ========================= -->
+        <!-- Student Researchers -->
+        <!-- ========================= -->
+
+        <div class="team-section">
+
+            <h2 class="team-group-title">
+                Student Researchers
+            </h2>
+
+            <div class="team-grid">
+
+
+                <!-- Undergraduate Researcher -->
+
+                <div class="member-card">
+
+                    <div class="member-photo-wrap">
+
+                        <img
+                            class="member-photo"
+                            src="/assets/img/team/Recruiting.png"
+                            alt="Student Researcher">
+
+                    </div>
+
+                    <div class="member-info">
+
+                        <h3 class="member-name">
+                            Undergraduate Researcher
+                        </h3>
+
+                        <p class="member-role">
+                            University of Miami
+                        </p>
+
+                        <p class="member-bio">
+
+                            Undergraduate research opportunities
+                            in computational materials science,
+                            molecular modeling, and data-driven discovery.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+        <!-- ========================= -->
+        <!-- Opportunities -->
+        <!-- ========================= -->
 
         <div class="team-text-block">
-            <h2>Join Us</h2>
+
+            <h2>
+                Opportunities
+            </h2>
+
             <p>
-                We are always looking for motivated undergraduate students, PhD students, and postdoctoral researchers
-                interested in inorganic chemistry, porous materials, catalysis, and separation.
-                Please contact Prof. Wang by email at <a href="mailto:kunyuwang95@gmail.com"><strong>kunyuwang95@gmail.com</strong></a> with your CV and a brief introduction.
+
+                M³D Research welcomes motivated students and researchers
+                interested in molecular modeling, materials science,
+                computational chemistry, AI/ML, and sustainable materials.
+
+                Undergraduate research, research collaborations,
+                and future graduate or postdoctoral opportunities
+                will be announced as available.
+
             </p>
-        </div>
-        
-            <div class="team-text-block lab-photo-block">
-                <h2>Our Lab</h2>
 
-                <div class="lab-photo-grid">
-                    <div class="lab-photo-item">
-                        <img src="/assets/img/team/lab-1.jpg" alt="SHINE Lab photo 1">
-                        <p class="photo-caption">Newly Renovated Lab Space</p>
-                    </div>
+            <p>
 
-                    <div class="lab-photo-item">
-                        <img src="/assets/img/team/lab-2.jpg" alt="SHINE Lab photo 2">
-                        <p class="photo-caption">Chemical Fume Hood</p>
-                    </div>
-                </div>
-            </div>
+                If you are interested in research collaboration,
+                please contact Meili Liu by email with your CV
+                and a brief description of your research interests.
+
+            </p>
+
         </div>
-        <hr>
+
+
+        <!-- ========================= -->
+        <!-- Research Environment -->
+        <!-- ========================= -->
+
+        <div class="team-text-block">
+
+            <h2>
+                Research Environment
+            </h2>
+
+            <p>
+
+                M³D Research leverages interdisciplinary collaborations,
+                advanced molecular simulation, machine learning,
+                and high-performance computing resources to connect
+                molecular-scale understanding with materials design.
+
+            </p>
+
+            <p>
+
+                Our research draws on shared computational and
+                experimental facilities at the University of Miami
+                and collaborating institutions.
+
+            </p>
+
+        </div>
+
+
     </div>
 
-    <section id="footer">
-        <div class="footercontainer">
-            <p>
-                <span>
-                    <a href="https://orcid.org/0000-0001-8982-0547" target="_blank">
-                        <svg width="24px" height="24px" class="social orcid" fill="#30030a" version="1.1" viewBox="0 0 1024 1024">
-                            <style type="text/css">
-                                .st0 {
-                                    fill: #FFFFFF;
-                                }
-                            </style>
-                            <path d="M1024,512c0,282.8-229.2,512-512,512S0,794.8,0,512S229.2,0,512,0S1024,229.2,1024,512z" />
-                            <g>
-                                <path class="st0" d="M345.2,744.8h-61.6V316.4h61.6V510V744.8z" />
-                                <path class="st0" d="M435.6,316.4H602c158.4,0,228,113.2,228,214.4c0,110-86,214.4-227.2,214.4H435.6
-                                C435.6,745.2,435.6,316.4,435.6,316.4z M497.2,689.6h98c139.6,0,171.6-106,171.6-158.8c0-86-54.8-158.8-174.8-158.8h-94.8
-                                L497.2,689.6L497.2,689.6z" />
-                                <path class="st0" d="M354.8,227.2c0,22-18,40.4-40.4,40.4S274,249.2,274,227.2c0-22.4,18-40.4,40.4-40.4
-                                C336.8,186.8,354.8,205.2,354.8,227.2z" />
-                            </g>
-                        </svg>
-                    </a>
-                </span>
-                <span>
-                    <a href="https://scholar.google.com/citations?user=5G-f684AAAAJ&hl=en" target="_blank">
-                        <svg width="24px" height="24px" class="social google-scholar" fill="#34090f" viewBox="0 0 1024 1024" version="1.1"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path d="M512,0C229.2,0,0,229.2,0,512s229.2,512,512,512s512-229.2,512-512S794.8,0,512,0z M418.9,186.2h395.6l-23.7,20.5
-                            c0,0.9,0.5,1.8,0.5,2.8v122.9c14,7.9,23.3,22.8,23.3,40V512c0,25.6-20.9,46.5-46.5,46.5s-46.5-20.9-46.5-46.5V372.4
-                            c0-17.2,9.3-32.1,23.3-40V246l-83.5,71.7c8.1,16.3,13.7,36.1,13.7,60.3c0,63.3-35.4,94.7-70.5,122.6c-10.9,11.2-23.8,23.3-23.8,42.1
-                            c0,18.6,12.8,29.1,22.1,36.5l30,24c37,31.7,70.5,60.8,70.5,119.6c0,80.3-76.6,161.5-220.9,161.5c-121.7,0-180.4-58.9-180.4-122.2
-                            c0-30.7,15.1-74.3,64.7-104.3c51.9-32.3,122.4-36.8,160.4-39.3c-11.9-15.4-25.4-31.4-25.4-58.2c0-14.2,4.4-22.8,8.6-33.3
-                            c-9.3,0.9-18.6,1.9-27,1.9c-88.4,0-138.9-67-139.4-133.4H186.2L418.9,186.2z M495,261.6c-21.6,0-45.1,11-58.6,28.4
-                            c-14.2,17.7-18.6,40.7-18.6,62.8c0,57.3,33.1,152.2,105,152.2c21.2,0,43.7-10.2,57.2-24c19.1-19.8,21-47,21-62.1
-                            C600.9,357.2,564.8,261.6,495,261.6z M536.2,642.5c-7.4,0-52.8,1.6-88,13.7c-18.6,7-72.1,27.3-72.1,88
-                            c0,60.7,57.7,104.3,147.5,104.3c80.8,0,123.4-39.6,123.4-92.4c0-43.5-27.5-66.6-91.2-112.6C549,642.6,544.8,642.5,536.2,642.5z" />
-                        </svg>
-                    </a>
-                </span>
-                <span>
-                    <a href="https://twitter.com/KunyuWang_Chem" target="_blank">
-                        <svg width="24px" height="24px" class="social twitter" fill="#34090f" viewBox="0 0 1024 1024" version="1.1"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1024,195.4c-37.7,16.8-78.2,28-120.7,33.1c43.4-26,76.8-67.2,92.4-116.2c-40.5,24-85.6,41.5-133.4,50.9
-                            c-38.3-40.9-92.9-66.3-153.3-66.3c-116,0-210.1,94-210.1,210.1c0,16.4,1.9,32.5,5.5,47.9c-174.6-8.8-329.4-92.4-433-219.5
-                            C53.2,166.4,42.9,202.5,42.9,241c0,72.9,37,137.2,93.5,174.9c-34.5-1.1-66.9-10.6-95.2-26.3c0,0.9,0,1.8,0,2.6
-                            c0,101.8,72.5,186.7,168.5,206.1c-17.6,4.8-36.2,7.3-55.3,7.3c-13.6,0-26.7-1.3-39.6-3.8c26.8,83.4,104.4,144.3,196.2,146
-                            c-71.8,56.3-162.4,89.9-260.9,89.9c-17,0-33.7-1-50-3c92.9,59.7,203.3,94.4,322,94.4c386.4,0,597.8-320.1,597.8-597.7
-                            c0-9.1-0.2-18.3-0.6-27.2C960.2,274.6,995.8,237.5,1024,195.4z" />
-                        </svg>
-                    </a>
-                </span>
-                <span>
-                    <a href="https://www.linkedin.com/in/kunyu-wang-082617203/" target="_blank">
-                        <svg width="24px" height="24px" class="social linkedin" fill="#34090f" viewBox="0 0 1024 1024" version="1.1"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path d="M260.096 155.648c0 27.307008-9.899008 50.516992-29.696 69.632-19.796992 19.115008-45.396992 28.672-76.8 28.672-30.036992 0-54.612992-9.556992-73.728-28.672-19.115008-19.115008-28.672-42.324992-28.672-69.632 0-28.672 9.556992-52.224 28.672-70.656 19.115008-18.432 44.372992-27.648 75.776-27.648 31.403008 0 56.32 9.216 74.752 27.648 18.432 18.432 28.331008 41.984 29.696 70.656 0 0 0 0 0 0m-202.752 808.96c0 0 0-632.832 0-632.832 0 0 196.608 0 196.608 0 0 0 0 632.832 0 632.832 0 0-196.608 0-196.608 0 0 0 0 0 0 0m313.344-430.08c0-58.708992-1.364992-126.292992-4.096-202.752 0 0 169.984 0 169.984 0 0 0 10.24 88.064 10.24 88.064 0 0 4.096 0 4.096 0 40.96-68.267008 105.812992-102.4 194.56-102.4 68.267008 0 123.220992 22.868992 164.864 68.608 41.643008 45.739008 62.464 113.664 62.464 203.776 0 0 0 374.784 0 374.784 0 0-196.608 0-196.608 0 0 0 0-350.208 0-350.208 0-91.476992-33.451008-137.216-100.352-137.216-47.787008 0-81.236992 24.576-100.352 73.728-4.096 8.192-6.144 24.576-6.144 49.152 0 0 0 364.544 0 364.544 0 0-198.656 0-198.656 0 0 0 0-430.08 0-430.08 0 0 0 0 0 0" />
-                        </svg>
-                    </a>
-                </span>
-                <span>
-                    <a href="mailto:kunyuwang95@gmail.com" target="_blank">
-                        <svg width="24px" height="24px" class="social mail" fill="#34090f" viewBox="0 0 1024 1024" version="1.1"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path d="M512.091 166.946c116.242 0 232.484-0.014 348.727 0.007 41.522 0.008 76.321 12.188 94.842 53.167 8.25 18.251 6.5 30.831-13.43 43.256-137.452 85.695-274.125 172.655-410.534 260.014-14.762 9.456-24.638 9.569-39.498 0.041C354.353 435.041 216.033 347.399 77.465 260.14c-12.701-8.002-16.368-15.572-12.01-29.962 9.882-32.627 30.845-52.873 63.868-59.66 13.656-2.806 27.953-3.4 41.966-3.431C284.888 166.83 398.492 166.943 512.091 166.946z" />
-                            <path d="M510.888 856.021c-117.998 0-235.996 0.134-353.993-0.067-47.671-0.083-79.295-22.331-91.17-61.206-4.28-14.027-2.127-22.232 10.858-30.356 108.193-67.725 215.807-136.366 324.233-203.713 7.275-4.519 21.51-4.25 29.378-0.171 22.589 11.713 44.026 25.859 64.999 40.383 11.823 8.191 21.091 8.623 33.117 0.325 20.993-14.484 43.689-26.52 64.549-41.176 12.159-8.539 20.73-7.176 32.785 0.537 106.04 67.844 212.318 135.315 319.158 201.894 16.481 10.272 18.065 21.564 12.577 37.407-12.35 35.666-45.183 55.999-92.491 56.081C746.889 856.149 628.886 856.021 510.888 856.021z" />
-                            <path d="M64.376 326.925c97.051 61.769 192.332 122.409 290.508 184.898-97.877 62.309-192.719 122.68-290.508 184.932C64.376 572.674 64.376 451.511 64.376 326.925z" />
-                            <path d="M959.665 327.168c0 124.369 0 244.164 0 369.253-97.913-62.322-192.914-122.792-290.001-184.589C766.993 449.854 861.628 389.595 959.665 327.168z" />
-                        </svg>
-                    </a>
-                </span>
-            </p>
-            <p>Wang Research Group, Department of Chemistry, University of Miami</p>
-            <p>2019 - 2026 &#169; Kunyu WANG's Group Website.</p>
-            <p>Special thanks to <a class="exlink" href="https://www.zmei.moe/" target="_blank">zmei.moe</a> for the website template</p>
-        </div>
-    </section>
 
-</body>
-
-</html>
+    <hr>
