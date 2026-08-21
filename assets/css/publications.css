@@ -211,3 +211,25 @@ div.article p {
     font-size: 1rem;
     font-weight: 400;
 }
+
+/* Make publication titles use the full available width */
+div.article {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+}
+
+div.article h1 {
+    width: 100%;
+    max-width: none;
+    margin: 0 0 10px 0;
+    font-size: 1.15rem;
+    line-height: 1.5;
+}
+
+div.article h1 a.titlehref {
+    display: inline;
+    width: auto;
+    max-width: none;
+}
